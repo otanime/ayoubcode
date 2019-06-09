@@ -36,3 +36,16 @@ $("a[href^='#']").click(function(e) {
 		scrollTop: position
 	} /* speed */ );
 });
+
+
+/* Slider */
+
+$(document).ready(function() {
+    $('#youb-projets-slides').lightSlider({
+        item:4,
+        loop:false,
+        slideMove:2,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600
+    });
+  });
